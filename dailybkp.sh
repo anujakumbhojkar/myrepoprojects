@@ -10,7 +10,7 @@ fi
 
 if [ ! -d "$DST_DIR" ]; then
     mkdir -p "$DST_DIR"
-    echo "Back directory created"
+    echo "Backup directory created"
 fi
 
 for file in "$SRC_DIR"/*; do
