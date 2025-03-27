@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRC_DIR="/home/codespace/.local/bin/SRC_DIR"
-DST_DIR="/home/codespace/.local/bin"
+SRC_DIR="/var/lib/jenkins/workspace/SRC_DIR"
+DST_DIR="//var/lib/jenkins/workspace/"
 
 if [ ! -d "$SRC_DIR" ]; then
     echo "Error: Source directory does not exist!"
